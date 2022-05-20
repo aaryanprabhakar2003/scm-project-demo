@@ -6,15 +6,15 @@ class Base {
 };
 class salary: public Base {
   public: 
-    float bonus = 100;
+    float bonus1 = 100;
     void sum() {
-      cout << "Your Total Salary is: " << (money + bonus) << endl;
+      cout << "Your Total Salary is: " << (money + bonus1) << endl;
     }
 };
 int main() {
   salary x;
   cout << "Your Salary is:" << x.money << endl;
-  cout << "Your Bonus is:" << x.bonus << endl;
+  cout << "Your Bonus is:" << x.bonus1 << endl;
   x.sum();
   return 0;
 }
