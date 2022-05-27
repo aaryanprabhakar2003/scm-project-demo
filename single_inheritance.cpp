@@ -18,3 +18,4 @@ int main() {
   x.sum();
   return 0;
 }
+//this is simple inheritance programm in c++ example.
