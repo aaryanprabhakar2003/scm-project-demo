@@ -18,4 +18,4 @@ int main() {
   x.sum();
   return 0;
 }
-//this is simple c++ code to demonstrate single inheritance
+
